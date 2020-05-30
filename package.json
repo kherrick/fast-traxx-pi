@@ -1,0 +1,15 @@
+{
+  "name": "fast-traxx-pi",
+  "version": "1.0.0",
+  "description": "Using a Raspberry Pi's GPIO pins to drive the remote control of a Tyco Fast Traxx.",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "keyupdown": "git+https://github.com/terrierscript/node-keyupdown.git",
+    "rpio": "^2.1.1"
+  }
+}
